@@ -1,0 +1,8 @@
+{
+  "name": "layer-example",
+  "$schema": "{workspaceRoot}/node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/layer-example",
+  "projectType": "library",
+  "targets": {
+  }
+}

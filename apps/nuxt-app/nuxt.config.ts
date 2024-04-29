@@ -5,6 +5,7 @@ import { defineNuxtConfig } from 'nuxt/config';
 export default defineNuxtConfig({
   workspaceDir: '../../',
   srcDir: 'src',
+  extends: ['../../libs/layer-example/nuxt.config.ts'],
   devtools: { enabled: true },
   devServer: {
     host: 'localhost',
@@ -19,9 +20,6 @@ export default defineNuxtConfig({
   imports: {
     autoImport: true,
   },
-
-  css: ['~/assets/css/styles.scss'],
-
   vite: {
     plugins: [nxViteTsPaths()],
   },
