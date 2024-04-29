@@ -1,5 +1,6 @@
 import { nxE2EPreset } from '@nx/cypress/plugins/cypress-preset';
-
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
 import { defineConfig } from 'cypress';
 
 export default defineConfig({
